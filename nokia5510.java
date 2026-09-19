@@ -145,14 +145,10 @@ public class nokia5510 {
                                 int set1Choice = input.nextInt();
 
                                 switch (set1Choice) {
-                                    case 1 -> System.out.println(
-                                            "Message centre number");
-                                    case 2 -> System.out.println(
-                                            "Messages sent as");
-                                    case 3 -> System.out.println(
-                                            "Message validity");
-                                    default -> System.out.println(
-                                            "Invalid option");
+                                    case 1 -> System.out.println("Message centre number");
+                                    case 2 -> System.out.println("Messages sent as");
+                                    case 3 -> System.out.println("Message validity");
+                                    default -> System.out.println("Invalid option");
                                 }
                             }
 
@@ -170,28 +166,21 @@ public class nokia5510 {
                                 int commonChoice = input.nextInt();
 
                                 switch (commonChoice) {
-                                    case 1 -> System.out.println(
-                                            "Delivery reports");
-                                    case 2 -> System.out.println(
-                                            "Reply via same centre");
-                                    case 3 -> System.out.println(
-                                            "Character support");
-                                    default -> System.out.println(
-                                            "Invalid option");
+                                    case 1 -> System.out.println("Delivery reports");
+                                    case 2 -> System.out.println("Reply via same centre");
+                                    case 3 -> System.out.println("Character support");
+                                    default -> System.out.println("Invalid option");
                                 }
                             }
 
-                            default -> System.out.println(
-                                    "Invalid Message Settings option");
+                            default -> System.out.println("Invalid Message Settings option");
                         }
                     }
 
                     case 8 -> System.out.println("Info service");
                     case 9 -> System.out.println("Voice mailbox number");
-                    case 10 -> System.out.println(
-                            "Service command editor");
-                    default -> System.out.println(
-                            "Invalid Messages option");
+                    case 10 -> System.out.println("Service command editor");
+                    default -> System.out.println("Invalid Messages option");
                 }
             }
 
@@ -239,6 +228,7 @@ public class nokia5510 {
                                   case 3 -> System.out.println("Received calls’ duration");
                                   case 4 -> System.out.println("Dialled calls’ duration");
                                   case 5 -> System.out.println("Clear timers");
+                                  default -> System.out.println("Invalid option");
                                  }
                               }
                                   case 6 -> {
@@ -257,6 +247,7 @@ public class nokia5510 {
                                   case 1 -> System.out.println("Last call cost");
                                   case 2 -> System.out.println("All calls’ cost");
                                   case 3 -> System.out.println("Clear counters");
+                                  default -> System.out.println("Invalid option");
                               }
                            }
                                   case 7 -> {                   
@@ -273,6 +264,7 @@ public class nokia5510 {
                                 switch (callCostSettings) {
                                   case 1 -> System.out.println("Call cost limit");
                                   case 2 -> System.out.println("Show cost in");
+                                  default -> System.out.println("Invalid option");
                               }
                             }
                                   case 8 -> System.out.println("Prepaid credit");
@@ -306,7 +298,8 @@ public class nokia5510 {
                                         case 5 -> System.out.println("Keypad tones");
                                         case 6 -> System.out.println("Warning tones");
                                         case 7 -> System.out.println("Vibrating alert");
-                                        case 8 -> System.out.println("Screen saver");       
+                                        case 8 -> System.out.println("Screen saver"); 
+                                        default -> System.out.println("Invalid option");
                                }
                               }
       
@@ -345,7 +338,7 @@ public class nokia5510 {
                                     case 4 -> System.out.println("Own number sending");
                                     case 5 -> System.out.println("Phone line in use");
                                     case 6 -> System.out.println("Automatic answer");
-                                    default -> System.out.println( "Invalid option");
+                                    default -> System.out.println("Invalid option");
     
                                   }
                                 }
@@ -368,6 +361,7 @@ public class nokia5510 {
                                     case 3 -> System.out.println("Welcome note");
                                     case 4 -> System.out.println("Network selection");
                                     case 5 -> System.out.println("Confirm SIM service actions");
+                                    default -> System.out.println("Invalid option");
                                 }
                               }
     
@@ -393,6 +387,7 @@ public class nokia5510 {
                                     case 4 -> System.out.println("Closed user group");
                                     case 5 -> System.out.println("Security level");
                                     case 6 -> System.out.println("Change access codes");
+                                    default -> System.out.println("Invalid option");
     
                               }
                             }
@@ -401,7 +396,8 @@ public class nokia5510 {
                                 }
                               }
     
-                                 case 7 -> System.out.println("Call divert");  
+                                 case 7 -> System.out.println("Call divert");
+                                 default -> System.out.println("Invalid option");
                                  
                                  case 8 -> {
                                     System.out.println("Music");
@@ -423,7 +419,7 @@ public class nokia5510 {
                                 case 2 -> System.out.println("Radio");
                                 case 3 -> System.out.println("Recorder");
                                 case 4 -> System.out.println("Track list");
-                                    
+                                default -> System.out.println("Invalid option");   
                       }
                     }
     
@@ -453,6 +449,7 @@ public class nokia5510 {
                     case 4 -> System.out.println("Stopwatch");
                     case 5 -> System.out.println("Countdown timer");
                     case 6 -> System.out.println("Auto update of date and time");
+                    default -> System.out.println("Invalid option");
                     
               }
            }
@@ -461,6 +458,7 @@ public class nokia5510 {
                     case 13 -> System.out.println("Profiles");
                     case 14 -> System.out.println("Services");
                     case 15 -> System.out.println("SIM services");
+                   
    }
         
   }
